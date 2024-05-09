@@ -49,7 +49,7 @@ html{
   width: 100%;
   background-color: #000;
   height: calc(100vh - 80px);
-  background-image: url("images/programador.png");
+  background-image: url("./images/programador.png");
   display: flex;
   align-items: center;
   padding-left: 10%;
@@ -80,6 +80,22 @@ html{
 }
 
 .call-to-action:hover{
+  transform: scale(1.1);
+}
+
+.call-to-action-2{
+  cursor: pointer;
+  color: silver;
+  background-color: #181818;
+  border:0;
+  padding: 14px;
+  border-radius: 4px;
+  font-size: 18px;
+  font-weight: bold;
+  transition: 0.9s;
+}
+
+.call-to-action-2:hover{
   transform: scale(1.1);
 }
 
